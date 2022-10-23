@@ -1,8 +1,8 @@
 ##########################################
 # 站点配置
 
-baseURL = "https://example.com/"
-title = "做杰出的生活家"
+baseURL = "https://lifistasart.com/"
+title = "LifeAsArt"
 languageCode = "zh-CN"
 hasCJKLanguage = true
 # 版权信息（支持 Markdown）
@@ -96,17 +96,17 @@ uglyURLs = false
 # 作者信息
 [author]
     # 名字
-    name = "reuixiy"
+    name = "Lifer"
     # 邮箱
-    email = "reuixiy@gmail.com"
+    email = "mavericker@tuta.io"
     # 座右铭或简介
-    motto = "Viva La Vida"
+    motto = "愿你熬过万丈孤独，藏下星辰大海。"
     # 头像
     avatar = "/icons/apple-touch-icon.png"
     # 网站（默认值：baseURL）
-    website = "https://io-oi.me/"
+    website = "https://lifeasart.github.io"
     # 推特
-    twitter = "reuixiy"
+    # twitter = ""
 
 # 相关文章
 [related]
@@ -309,11 +309,11 @@ uglyURLs = false
     # 3. posts     文章摘要
     # 4. page      普通页面
 
-    homeLayout = "posts"
+    homeLayout = "poetry"
 
     ## 「诗意人生」
     # 诗句，支持 Markdown
-    homePoetry = []
+    homePoetry = ["不编织无谓的浪漫情怀", "对自己的工作全心投入", "天性害羞的不信任", "积极参与广阔世界游走其中", "不故步自封的坚定", "嘲讽的人生观", "清澄和理性的智慧"]
     # 底部链接的内间距，单位：em
     homeLinksPadding = 1
 
@@ -338,16 +338,16 @@ uglyURLs = false
     # 说明：用于 JSON-LD、Open Graph
 
     # 站点的描述
-    siteDescription = "MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。"
+    siteDescription = "LifeAsArt! 努力把生活活出艺术感，并且记录下来。"
     # 说明：用于 HTML 的头部元数据、JSON-LD、
     #      Open Graph、Atom、RSS
 
     # 站点的创建时间
-    siteCreatedTime = "1969-07-20T20:17:43+00:00"
+    siteCreatedTime = "2022-10-23T14:00:00+00:00"
     # 注意：请保持此格式，更改数字
 
     # 站点的推特帐号
-    siteTwitter = "reuixiy"
+    siteTwitter = ""
     # 说明：用于 Twitter Cards
 
 
