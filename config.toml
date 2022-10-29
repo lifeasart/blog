@@ -1458,7 +1458,7 @@ uglyURLs = false
     #     identifier = "about"
     [[languages.en.menu.main]]
         pageref = "/about/"
-        name = "about"
+        name = "About"
         weight = 1
         pre = "internal"
         post = "user-circle"

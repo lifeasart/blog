@@ -1,0 +1,15 @@
+# data/Socials
+
+[[socials]]
+    id = "email"
+    url = "mailto:mavericker@tuta.io"
+    icon = "envelope"
+    title = "Email"
+    weight = 2
+
+[[socials]]
+    id = "github"
+    url = "https://github.com/lifeasart"
+    icon = "github"
+    title = "GitHub"
+    weight = 3
