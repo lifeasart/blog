@@ -103,10 +103,6 @@ uglyURLs = false
     motto = "愿你熬过万丈孤独，藏下星辰大海。"
     # 头像
     avatar = "/icons/apple-touch-icon.png"
-    # 网站（默认值：baseURL）
-    website = "https://lifeasart.github.io"
-    # 推特
-    # twitter = ""
 
 # 相关文章
 [related]
@@ -195,16 +191,35 @@ uglyURLs = false
     #     weight = 1
     #     pre = "internal"
     #     post = "home"
+    #[[menu.main]]
+    #    pageref = "/posts/"
+    #    name = "文章"
+    #    weight = 2
+    #    pre = "internal"
+    #    post = "archive"
+    #[[menu.main]]
+    #    pageref = "/categories/"
+    #    name = "分类"
+    #    weight = 3
+    #    pre = "internal"
+    #    post = "th"
+    #[[menu.main]]
+    #    pageref = "/tags/"
+    #    name = "标签"
+    #    weight = 4
+    #    pre = "internal"
+    #    post = "tags"
     [[menu.main]]
-        pageref = "/posts/"
-        name = "文章"
-        weight = 2
+        pageref = "/life/"
+        name = "生活"
+        weight = 1
         pre = "internal"
         post = "archive"
+        identifier = "life"
     [[menu.main]]
-        pageref = "/categories/"
-        name = "分类"
-        weight = 3
+        pageref = "/STEM/"
+        name = "STEM"
+        weight = 2
         pre = "internal"
         post = "th"
     [[menu.main]]
@@ -313,7 +328,7 @@ uglyURLs = false
 
     ## 「诗意人生」
     # 诗句，支持 Markdown
-    homePoetry = ["不编织无谓的浪漫情怀", "对自己的工作全心投入", "天性害羞的不信任", "积极参与广阔世界游走其中", "不故步自封的坚定", "嘲讽的人生观", "清澄和理性的智慧"]
+    homePoetry = ["不编织无谓的浪漫情怀", "对自己的工作全心投入", "天性害羞的不信任", "积极参与广阔世界游走其中", "不故步自封的坚定", "嘲讽的人生观", "清澄和理性的智慧",  "    ——卡尔维诺， 《异乡人在都灵》"]
     # 底部链接的内间距，单位：em
     homeLinksPadding = 1
 
@@ -1122,16 +1137,16 @@ uglyURLs = false
 
     displayShareOnText = false
 
-    shareOnTwitter = true
-    shareOnFacebook = true
-    shareOnLinkedIn = true
-    shareOnTelegram = true
-    shareOnWeibo = true
-    shareOnDouban = true
-    shareOnQQ = true
-    shareOnQzone = true
+    shareOnTwitter = false
+    shareOnFacebook = false
+    shareOnLinkedIn = false
+    shareOnTelegram = false
+    shareOnWeibo = false
+    shareOnDouban = false
+    shareOnQQ = false
+    shareOnQzone = false
 
-    shareViaQRCode = true
+    shareViaQRCode = false
 
 
     ######################################
@@ -1265,7 +1280,7 @@ uglyURLs = false
     # 多语言
 
     # 是否开启多语言按钮
-    enableLangToggle = false
+    enableLangToggle = true
 
     # 是否在首页隐藏多语言按钮
     hideLangToggleInHome = false
@@ -1413,3 +1428,58 @@ uglyURLs = false
         valine = "/npm/valine@1.4.14/dist/Valine.min.js"
         busuanzi = "https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"
         utterances = "https://utteranc.es/client.js"
+
+##########################################
+# 自行添加的多语言站点配置
+
+# 中文
+[languages.zh]
+    languageName = "🇨🇳"
+    contentDir = "content/zh"
+    weight = 1
+
+# 英文
+[languages.en]
+    languageName = "🇺🇸"
+    contentDir = "content/en"
+    weight = 2
+    languageCode = "en-US"
+    hasCJKLanguage = false
+    copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)"
+[languages.en.taxonomies]
+    # category = "categories"
+    # tag = "tags"
+[languages.en.menu]
+    # [[languages.en.menu.home]]
+    #     pageref = "/"
+    #     weight = 3
+    #     pre = "internal"
+    #     post = "user-circle"
+    #     identifier = "about"
+    [[languages.en.menu.main]]
+        pageref = "/about/"
+        name = "about"
+        weight = 1
+        pre = "internal"
+        post = "user-circle"
+        identifier = "about"
+    [[languages.en.menu.main]]
+        weight = 2
+        identifier = "theme-switcher"
+    [[languages.en.menu.main]]
+        weight = 3
+        identifier = "lang-switcher"
+[languages.en.params]
+    homePoetry = ["Absence of romantic froth", "reliance above all on one's own work", "an innate diffidence and reserve", "and in addition the sure sense that one was part of the big world of action", "not the closed provincial world", "a pleasure in living that was tempered with irony", "and a rational, clarifying intelligence"]
+    siteDescription = "Blog of reuixiy in English."
+    listDateFormat = "January 2"
+    fontFamilyTitle = "'Amstelvar', serif"
+    fontFamilyHeadings = "'Amstelvar', serif"
+    fontFamilyBody = "'Amstelvar', serif"
+    fontsLink = "https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    lineHeight = 1.618
+    enableJustify = false
+    enableSmallCaps = true
+    enableEmphasisPoint = false
+    enableChinesePunctuationGlyphCorrection = false
+    customFooter = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)"
