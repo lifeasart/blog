@@ -1,7 +1,7 @@
 ##########################################
 # 站点配置
 
-baseURL = "https://lifistasart.com/"
+baseURL = "https://blog.lifeasart.xyz/"
 title = "LifeAsArt"
 languageCode = "zh-CN"
 hasCJKLanguage = true
