@@ -217,7 +217,7 @@ uglyURLs = false
         post = "archive"
         identifier = "life"
     [[menu.main]]
-        pageref = "stem.lifeasart.xyz/"
+        url = "https://stem.lifeasart.xyz/"
         name = "STEM"
         weight = 2
         pre = "external"
