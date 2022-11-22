@@ -217,10 +217,10 @@ uglyURLs = false
         post = "archive"
         identifier = "life"
     [[menu.main]]
-        pageref = "/STEM/"
+        pageref = "stem.lifeasart.xyz/"
         name = "STEM"
         weight = 2
-        pre = "internal"
+        pre = "external"
         post = "th"
     [[menu.main]]
         pageref = "/tags/"
